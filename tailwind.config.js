@@ -10,6 +10,9 @@ export default {
       Mulish: ['Mulish', 'sans-serif']
     }
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/forms'),
+  ],
 }
 
